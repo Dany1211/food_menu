@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  color: wheat;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+
+button {
+  font-weight: bold !important;
+}
+
+input {
+  margin-top: 25px;
+  width: 400px;
+  height: 40px;
+  background-color: bisque;
+  border: none;
+  color: black;
+  border-radius: 10px;
+  padding: 15px;
+}
+input:focus {
+  outline: none;
+}
+
+body {
+  background-color: black;
+}
+.food {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Allows wrapping onto the next row */
+  gap: 2rem; /* Adds space between grid items */
+  margin: 2rem;
+}
+
+.food div {
+  display: flex;
+  flex-direction: column; /* Stacks the image and text vertically */
+  align-items: center; /* Centers the text and image */
+  max-width: 220px; /* Keeps items aligned in a grid */
+  text-align: center;
+}
+
+.food img {
+  width: 220px;
+  border-radius: 10px;
+  border: 1px solid yellow;
+}
+
+.food h5 {
+  margin-top: 10px; /* Adds some spacing between the image and text */
+  color: white; /* Adjust as per your theme */
+  font-size: 1rem;
+  font-weight: bold;
+}
+
